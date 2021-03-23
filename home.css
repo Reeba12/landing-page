@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 30px;
+padding: 10px;
+background-color: rgb(240, 240, 240);
+}
+.logo img{
+    margin-top: 0px;
+    height: 40px;
+}
+.header div{
+    display: inline-table;
+    float: right;
+    margin: 0 30px 30px 0;
+  border :1px solid black
+}
+  /* navbar  */
+nav{
+    width: 100%;
+     background-color:pink; 
+   /*  border-radius: 30px; */
+    
+  }
+  /* .navbar{
+    display: inline-block;
+  } */
+  nav ul{
+    width: 95%;
+    margin:  auto;
+    padding: 0;
+  }
+  nav ul li{
+    list-style: none;
+    padding: 5px;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  nav ul li:hover{
+    color: rgb(82, 132, 197);
+  }
+  nav ul li img{
+      height: 60px ;
+      width: 120px;
+      margin-right: 250px;
+  }
+  nav ul li a{
+    color: gray;
+    text-decoration: none;
+  /* margin-left: 50px; */
+  }
+  ul li a:hover{
+    color: palevioletred;
+    text-decoration: none;
+  }
+  .toggle{
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+    box-sizing: border-box;
+    background-color: pink;
+    color: rgb(135, 140, 145);
+    font-size: 30px;
+    display: none;
+
+    /* border-radius: 30px; */
+  }
+  @media screen and (max-width:765px){
+    .toggle{
+      display: block;
+    }
+    ul{
+      width: 100%;
+      display: none;
+    } 
+    nav ul li {
+      display: block;
+      text-align: center;
+    }
+    .active{
+      display: block;
+    }
+    nav ul li image {
+        display: block;
+    }
+    
+  }
+  .card{
+      margin: 10px 0 0 150px;
+      
+  }
+  @media screen and (max-width:765px){
+      .card{
+          margin: 0;
+      }
+  }
+  .feature{
+      background-color: pink;
+      height: 150px;
+      width: 100%;
+    margin-top: 50px;
+  }
+
+
+  
+  .counts{
+    display: inline-block;
+    margin: 15px 70px ;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .counts a{
+    display: inline-block;
+    /* margin: 15px 15px ; */
+    
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    background-color: whitesmoke;
+    line-height: 80px;
+    text-align: center;
+  }
+  .counts i{
+    color: pink;
+    font-size: 30px;
+  }
+
+
+
+  
+  
+
+
+
+
+  .page-footer{
+    margin-top: 20px;
+  }
+  .page-footer p{
+   font-size: 10px;
+   color: white;
+  }
+  .page-footer h6{
+    color:pink;
+  }
+  .page-footer hr{
+    background-color: #f1f1f1;
+  }
+  .page-footer .socio i{
+    padding: 8px;
+    border-radius:  30px;
+    background-color: pink;
+    color: white;
+  }
+  .page-footer p a{
+    color: white;
+    text-decoration: none;
+  }
